@@ -29,7 +29,7 @@ public class HomeWork4 {
     private void go() {
         initMap();
         printMap();
-        firstPlayer = fistMove();                    // Случайно выбирается кто будет начинать игру
+        firstPlayer = fistMove();                   // Случайно выбирается кто будет начинать игру
         if (fistMove() == 1) {
             startAi();
         } else {
