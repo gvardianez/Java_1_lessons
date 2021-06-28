@@ -20,6 +20,7 @@ public class Cat extends Animal {
         return false;
     }
 
+    @Override
     public boolean run(int length) {
         if (length <= run) {
             System.out.printf("Кошка пробежала %d м\n", length);

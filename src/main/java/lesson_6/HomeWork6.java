@@ -28,7 +28,7 @@ public class HomeWork6 {
             int count = 0;
             for (Obstacle obstacle : obstacles) {
                 count++;
-                if (obstacle.runAcross(animal) || obstacle.swimAcross(animal)) {
+                if (animal.overcomeAnObstacle(obstacle)) {
                     System.out.printf("Животное смогло преодолеть препятствие номер %d и пробует дальше!\n", count);
                     if (count == obstacles.size()) {
                         System.out.printf("Животное смогло преодолеть все %d препятствий!!!\n", obstacles.size());

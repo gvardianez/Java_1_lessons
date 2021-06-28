@@ -37,5 +37,10 @@ public class Dog extends Animal {
         }
     }
 
+//    @Override
+//    public boolean overcomeAnObstacle(Obstacle obstacle) {
+//        return false;
+//    }
+
 
 }
